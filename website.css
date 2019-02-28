@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    background-color: #00802b;
+  }
+h1{
+    color: #1aff66;
+    text-align: center;
+}
+h2{
+    color: #e6e6e6;
+    text-align: center;
+}
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+
+  .jumbotron{
+      margin-top: 30px;
+      color: #33cc33;
+      text-align: left;
+      font-size: 4em;
+  }
+  /* #image{
+      width: 150px;
+      height: 140px;
+      align-self: right;
+  } */
+
+  .jumbotron img{
+    display:block;
+    width: 500px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left:400px;
+    margin-right:auto;
+}
+  .tablink:hover {
+    background-color: rgb(7, 6, 6);
+  }
+.fab {
+    align-content: right;
+}
+  footer{
+      color: aliceblue;
+  }
+
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+#Home {background-color: red;}
+#Abou {background-color: green;}
+#Classes {background-color: blue;}
+#Contact {background-color: orange;}
